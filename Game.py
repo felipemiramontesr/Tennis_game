@@ -18,10 +18,10 @@ class Game:
   [40, 0]
   >>> game = Game()
   >>> game.scores(1).scores(1).scores(2).scores(2).score()
-  Deuce
+  [30, 30]
   >>> game = Game()
   >>> game.scores(1).scores(1).scores(1).scores(2).scores(2).scores(2).score()
-  [40, 40]
+  Deuce
   >>> game = Game()
   >>> game.scores(1).scores(1).scores(1).scores(2).scores(2).scores(2).scores(1).score()
   Advantage player 1
