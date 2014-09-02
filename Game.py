@@ -1,5 +1,7 @@
 import os
 
+scores = [0, 15, 30, 40, "win"]
+
 class Game:
   """
   >>> game = Game()
